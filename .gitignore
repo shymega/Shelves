@@ -1,0 +1,14 @@
+## Ignore the Users database.
+users.sqlite3
+
+## Ignore Shelves binary
+shelves
+
+## Ignore Desktop GUI Binary
+desktopgui/desktopgui
+
+## Ignore Covers directory
+.cover
+
+## Ignore Glider _vendor directory
+_vendor
