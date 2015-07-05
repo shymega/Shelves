@@ -1,0 +1,25 @@
+{
+    "version":"0.01a",
+    "database": {
+      "use":"mongodb",
+      "databases": {
+        "mongodb": {
+          "hostname":"mongo.example.com",
+          "port":27017
+        },
+        "mysql": {
+          "hostname":"mysql.example.com",
+          "port":3306
+        }
+    }
+    },
+    "authentication": {
+        "authenticator":"file",
+        "file": {
+            "authDBlocation":"/home/dzrodrig/users.sqlite3"
+        },
+        "ldap": {
+          "baseDN":"dc=ldap,dc=example,dc=com"
+        }
+    }
+}
