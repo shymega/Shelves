@@ -1,0 +1,4 @@
+site_name: Shelves
+pages:
+  - 'index.md'
+theme: readthedocs
